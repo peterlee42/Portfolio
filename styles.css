@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #14213d;
+    color: #ffffff;
+}
+
+.home {
+    width: 50vw;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.homeLeft,
+.homeRight {
+    flex-shrink: 1;
+}
+
+.homeLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 12px;
+}
+
+.logo {
+    color: #fca311;
+    font-weight: 900;
+}
+
+.homeTitle {
+    font-size: 48px;
+}
+
+.homeTitleName {
+    color: #fca311;
+}
+
+.header {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.innerHeader {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.profileImage {
+    border: medium solid #fca311;
+    border-radius: 125px;
+    height: 20vw;
+    max-height: 350px;
+    min-height: 100px;
+    width: auto;
+}
+
+.projectsTitle {
+    font-size: 48px;
+}
