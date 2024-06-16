@@ -5,10 +5,11 @@ body {
     justify-content: space-evenly;
     background-color: #14213d;
     color: #ffffff;
+    font-family: "Merriweather", sans-serif;
 }
 
 .home {
-    width: 50vw;
+    width: 70vw;
     min-height: 500px;
     display: flex;
     justify-content: space-between;
@@ -34,16 +35,19 @@ body {
 }
 
 .homeTitle {
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .homeTitleName {
     color: #fca311;
 }
 
+.homeDesc {
+    font-size: 24px;
+}
+
 .header {
-    padding-top: 32px;
-    padding-bottom: 8px;
+    padding: 32px 0px;
 }
 
 .container {
@@ -53,7 +57,7 @@ body {
 
 .innerHeader {
     display: flex;
-    width: 50vw;
+    width: 70vw;
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
@@ -84,11 +88,77 @@ h1 {
     border: medium solid #fca311;
     border-radius: 125px;
     height: 20vw;
-    max-height: 350px;
+    max-height: 600px;
     min-height: 100px;
     width: auto;
 }
 
+.projects {
+    width: 100%;
+    height: auto;
+    background-color: #001d3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.innerProjects {
+    width: 70vw;
+    height: auto;
+}
+
 .projectsTitle {
     font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.projectsList {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    max-width: 70vw;
+}
+
+.info {
+    color: #14213d;
+    background-color: #e5e5e5;
+    flex: 1;
+    padding: 10px;
+
+    border: medium solid #fca311;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.infoTop {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.infoTitle {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.infoLinks {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    align-self: center;
+}
+
+.infoImage {
+    max-width: 200px;
+    height: auto;
+    align-self: center;
 }
