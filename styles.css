@@ -166,7 +166,7 @@ h1 {
     gap: 12px;
     flex: 1;
 
-    flex: 0 0 350px;
+    flex: 0 0 375px;
 
     box-shadow: 10px 10px gray;
 }
@@ -184,7 +184,6 @@ h1 {
 
 .infoTitle {
     font-size: 32px;
-    font-weight: 900;
     text-align: center;
 }
 
@@ -238,4 +237,8 @@ a {
 .skillsList img {
     width: 100px;
     height: auto;
+}
+
+.title {
+    font-weight: 700;
 }
