@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #14213d;
+    background-color: #15203a;
     color: #ffffff;
     font-family: "Roboto Slab", serif;
     gap: 12px;
@@ -100,8 +100,6 @@ h1 {
     border: medium solid #fca311;
     border-radius: 125px;
     height: 20vw;
-    max-height: 600px;
-    min-height: 100px;
     width: auto;
 }
 
@@ -120,8 +118,8 @@ h1 {
 }
 
 .skills {
-    flex-basis: 400px;
-    background-color: #15203a;
+    flex-basis: 300px;
+    background-color: #14213d;
 }
 
 .innerProjects,
@@ -160,7 +158,6 @@ h1 {
 
     padding: 10px;
 
-    border: medium solid #fca311;
     border-radius: 15px;
 
     display: flex;
@@ -169,9 +166,14 @@ h1 {
     gap: 12px;
     flex: 1;
 
-    min-width: 300px;
-    width: 350px;
-    max-width: 400px;
+    flex: 0 0 350px;
+
+    box-shadow: 10px 10px gray;
+}
+
+.info:hover {
+    transform: translate(10px, 10px);
+    box-shadow: none;
 }
 
 .infoTop {
