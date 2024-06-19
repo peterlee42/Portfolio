@@ -105,22 +105,40 @@ h1 {
     width: auto;
 }
 
-.projects {
+.projects,
+.skills {
     width: 100%;
-    height: auto;
-    background-color: #001d3d;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 16px 0px;
 }
 
-.innerProjects {
+.projects {
+    flex-basis: 600px;
+}
+
+.skills {
+    flex-basis: 400px;
+    background-color: #15203a;
+}
+
+.innerProjects,
+.innerSkills {
     width: 70vw;
     height: auto;
 }
 
-.projectsTitle {
+.innerSkills {
+    border: medium solid #e5e5e5;
+    border-radius: 16px;
+    padding: 12px;
+    padding-bottom: 24px;
+}
+
+.projectsTitle,
+.skillsTitle {
     font-size: 48px;
     display: flex;
     flex-direction: column;
@@ -206,4 +224,16 @@ a {
 
 .iconContainer {
     display: flex;
+}
+
+.skillsList {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skillsList img {
+    width: 100px;
+    height: auto;
 }
