@@ -3,10 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #15203a;
-    color: #ffffff;
+    background-color: #f2e9e4;
+    color: #22223b;
     font-family: "Roboto Slab", serif;
-    gap: 12px;
 }
 
 #header {
@@ -15,7 +14,8 @@ body {
     top: 0;
     width: 100%;
     padding: 16px;
-    background-color: #0d1b2a;
+    background-color: #22223b;
+    color: #f2e9e4;
 }
 
 #content {
@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
+    gap: 72px;
 }
 
 .home {
@@ -47,7 +48,7 @@ body {
 }
 
 .logo {
-    color: #fca311;
+    color: #3a6ea5;
     font-weight: 900;
 }
 
@@ -56,7 +57,7 @@ body {
 }
 
 .homeTitleName {
-    color: #fca311;
+    color: #3a6ea5;
 }
 
 .homeDesc {
@@ -97,7 +98,7 @@ h1 {
 }
 
 .profileImage {
-    border: medium solid #fca311;
+    border: medium solid #22223b;
     border-radius: 125px;
     height: 20vw;
     width: auto;
@@ -113,15 +114,6 @@ h1 {
     padding: 16px 0px;
 }
 
-.projects {
-    flex-basis: 600px;
-}
-
-.skills {
-    flex-basis: 300px;
-    background-color: #1c2c50;
-}
-
 .innerProjects,
 .innerSkills {
     width: 70vw;
@@ -129,8 +121,9 @@ h1 {
 }
 
 .innerSkills {
-    border: medium solid #e5e5e5;
+    border: medium solid #22223b;
     border-radius: 16px;
+    background-color: #e5e5e5;
     padding: 12px;
     padding-bottom: 24px;
 }
