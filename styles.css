@@ -20,6 +20,7 @@ html {
     padding: 16px;
     background-color: #22223b;
     color: #f2e9e4;
+    z-index: 10;
 }
 
 
